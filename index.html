@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası – FriendsMap</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --green: #39FF14;
+    --dark: #0a0a0a;
+    --card: #111111;
+    --border: #1e1e1e;
+    --muted: #666;
+    --text: #e8e8e8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    min-height: 100vh;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 48px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,10,0.92);
+    backdrop-filter: blur(12px);
+    z-index: 10;
+  }
+
+  .logo-dot {
+    width: 10px; height: 10px;
+    background: var(--green);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--green);
+  }
+
+  .logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+  }
+
+  .logo-text span { color: var(--green); }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 32px 120px;
+  }
+
+  .hero {
+    margin-bottom: 64px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green);
+    border: 1px solid rgba(57,255,20,0.3);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(36px, 6vw, 56px);
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--green);
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, var(--green), transparent);
+    margin: 48px 0;
+    opacity: 0.4;
+  }
+
+  section {
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 6px var(--green);
+  }
+
+  p { color: #aaa; margin-bottom: 12px; font-size: 15px; }
+
+  ul {
+    list-style: none;
+    margin: 12px 0;
+  }
+
+  ul li {
+    color: #aaa;
+    font-size: 15px;
+    padding: 6px 0 6px 20px;
+    position: relative;
+  }
+
+  ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+    font-size: 12px;
+  }
+
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-top: 16px;
+  }
+
+  .contact-card a {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .contact-card a:hover { text-decoration: underline; }
+
+  footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-dot"></div>
+  <div class="logo-text">Friends<span>Map</span></div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="tag">Yasal</div>
+    <h1>Gizlilik <em>Politikası</em></h1>
+    <p class="meta">Son güncelleme: 10 Mayıs 2026</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>Giriş</h2>
+    <p>FriendsMap ("uygulama", "biz") olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, uygulamayı kullandığınızda hangi verileri topladığımızı, bu verileri nasıl kullandığımızı ve haklarınızın neler olduğunu açıklamaktadır.</p>
+  </section>
+
+  <section>
+    <h2>Topladığımız Veriler</h2>
+    <p>Hizmetimizi sağlamak amacıyla aşağıdaki verileri toplarız:</p>
+    <ul>
+      <li>Ad, kullanıcı adı ve e-posta adresi gibi hesap bilgileri</li>
+      <li>Konum verileri (yalnızca uygulama açıkken ve izin verdiğinizde)</li>
+      <li>Arkadaşlık ilişkileri ve sosyal etkileşim verileri</li>
+      <li>Uygulama içi mesajlaşma içerikleri</li>
+      <li>Etkinlik ve check-in bilgileri</li>
+      <li>Cihaz bilgileri ve uygulama kullanım istatistikleri</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Verilerin Kullanım Amacı</h2>
+    <p>Topladığımız veriler yalnızca aşağıdaki amaçlarla kullanılmaktadır:</p>
+    <ul>
+      <li>Hesabınızı oluşturmak ve yönetmek</li>
+      <li>Arkadaşlarınızın konumunu harita üzerinde göstermek</li>
+      <li>Bildirimler ve e-posta doğrulama göndermek</li>
+      <li>Etkinlik ve check-in özelliklerini sunmak</li>
+      <li>Uygulama güvenliğini sağlamak ve kötüye kullanımı önlemek</li>
+      <li>Uygulama performansını iyileştirmek</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Konum Verisi</h2>
+    <p>FriendsMap, temel işlevselliği için konum verisi kullanmaktadır. Konumunuz yalnızca arkadaş listenizdekilere gösterilir. Dilediğiniz zaman uygulama ayarlarından konum paylaşımını kapatabilirsiniz. Konum veriniz üçüncü taraflarla paylaşılmaz.</p>
+  </section>
+
+  <section>
+    <h2>Veri Güvenliği</h2>
+    <p>Verileriniz şifrelenmiş bağlantılar (HTTPS) üzerinden iletilmekte ve güvenli sunucularda saklanmaktadır. Şifreler bcrypt algoritması ile hashlenerek korunmaktadır. Yetkisiz erişimi önlemek için endüstri standardı güvenlik önlemleri uygulanmaktadır.</p>
+  </section>
+
+  <section>
+    <h2>Üçüncü Taraf Hizmetler</h2>
+    <p>Uygulamamız aşağıdaki üçüncü taraf hizmetlerini kullanmaktadır:</p>
+    <ul>
+      <li>Google Maps – harita gösterimi için</li>
+      <li>Resend – e-posta gönderimi için</li>
+      <li>İyzico – ödeme işlemleri için (varsa)</li>
+    </ul>
+    <p>Bu hizmetler kendi gizlilik politikalarına tabidir.</p>
+  </section>
+
+  <section>
+    <h2>Veri Saklama ve Silme</h2>
+    <p>Verileriniz hesabınız aktif olduğu sürece saklanır. Hesabınızı silmek istediğinizde tüm kişisel verileriniz sistemden kalıcı olarak silinir. Hesap silme taleplerini uygulama içi ayarlar menüsünden veya iletişim adresimizden iletebilirsiniz.</p>
+  </section>
+
+  <section>
+    <h2>Çocukların Gizliliği</h2>
+    <p>FriendsMap, 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan bilerek veri toplamayız. 13 yaşından küçük bir kullanıcının hesabını tespit etmemiz durumunda hesabı derhal kapatırız.</p>
+  </section>
+
+  <section>
+    <h2>Haklarınız</h2>
+    <p>KVKK kapsamında aşağıdaki haklara sahipsiniz:</p>
+    <ul>
+      <li>Verilerinize erişim talep etme</li>
+      <li>Yanlış verilerin düzeltilmesini isteme</li>
+      <li>Verilerinizin silinmesini talep etme</li>
+      <li>Veri işlemeye itiraz etme</li>
+      <li>Verilerinizi taşıma hakkı</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <p>Gizlilik politikamıza ilişkin sorularınız için bizimle iletişime geçebilirsiniz:</p>
+    <div class="contact-card">
+      <p style="color: var(--text); margin: 0;">📧 <a href="mailto:friendsmap2@gmail.com">friendsmap2@gmail.com</a></p>
+      <p style="color: var(--muted); font-size: 13px; margin-top: 8px; margin-bottom: 0;">FriendsMap Ekibi · Bandırma, Türkiye</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 FriendsMap Inc. Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
