@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kullanım Şartları – FriendsMap</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --green: #39FF14;
+    --dark: #0a0a0a;
+    --card: #111111;
+    --border: #1e1e1e;
+    --muted: #666;
+    --text: #e8e8e8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    min-height: 100vh;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 48px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,10,0.92);
+    backdrop-filter: blur(12px);
+    z-index: 10;
+  }
+
+  .logo-dot {
+    width: 10px; height: 10px;
+    background: var(--green);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--green);
+  }
+
+  .logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+  }
+
+  .logo-text span { color: var(--green); }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 32px 120px;
+  }
+
+  .hero {
+    margin-bottom: 64px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green);
+    border: 1px solid rgba(57,255,20,0.3);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(36px, 6vw, 56px);
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--green);
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, var(--green), transparent);
+    margin: 48px 0;
+    opacity: 0.4;
+  }
+
+  section {
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 6px var(--green);
+  }
+
+  p { color: #aaa; margin-bottom: 12px; font-size: 15px; white-space: pre-line; }
+
+  ul {
+    list-style: none;
+    margin: 12px 0;
+  }
+
+  ul li {
+    color: #aaa;
+    font-size: 15px;
+    padding: 6px 0 6px 20px;
+    position: relative;
+  }
+
+  ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+    font-size: 12px;
+  }
+
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-top: 16px;
+  }
+
+  .contact-card a {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .contact-card a:hover { text-decoration: underline; }
+
+  footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  nav.crumbs {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 32px 0;
+  }
+
+  nav.crumbs a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  nav.crumbs a:hover { color: var(--green); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-dot"></div>
+  <div class="logo-text">Friends<span>Map</span></div>
+</header>
+
+<nav class="crumbs"><a href="/friendsmap-privacy/">← Gizlilik Politikası</a></nav>
+
+<main>
+  <div class="hero">
+    <div class="tag">Yasal</div>
+    <h1>Kullanım <em>Şartları</em></h1>
+    <p class="meta">Son güncelleme: 24 Temmuz 2026</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <section>
+    <p>Bu Kullanım Koşulları ("Koşullar"), FriendsMap uygulamasını kullanırken uyman gereken kuralları belirler. Uygulamayı indirip hesap oluşturarak bu Koşulları kabul etmiş olursun.</p>
+  </section>
+
+  <section>
+    <h2>1. Hizmetin Tanımı</h2>
+    <p>FriendsMap; arkadaşlarını ve (tercihen) şehrindeki diğer kullanıcıları harita üzerinde gösteren, etkinlik oluşturmayı/katılmayı, mesajlaşmayı, mekân check-in'i ve oyunlaştırılmış ödül (FriendsCoin) kazanmayı sağlayan bir sosyal konum uygulamasıdır.</p>
+  </section>
+
+  <section>
+    <h2>2. Hesap Oluşturma ve Uygunluk</h2>
+    <p>Hesap oluşturmak için 13 yaşından büyük olman ve doğru, güncel bilgi vermen gerekir. Hesabının ve şifrenin gizliliğinden sen sorumlusun; hesabında gerçekleşen tüm etkinliklerden sorumlu tutulursun. Şüpheli bir erişim fark edersen derhal bize bildirmelisin.</p>
+  </section>
+
+  <section>
+    <h2>3. Kullanım Kuralları</h2>
+    <p>Uygulamayı kullanırken aşağıdakileri YAPMAMAYI kabul edersin:</p>
+    <ul>
+      <li>Sahte hesap açmak, başka bir kişi/kurum yerine geçmek veya yanlış topluluk bilgisi (ör. sahte üniversite e-postası) beyan etmek</li>
+      <li>Başka kullanıcıları taciz etmek, tehdit etmek, nefret söylemi kullanmak veya istenmeyen içerik göndermek</li>
+      <li>Konumunu sahte/yanıltıcı şekilde bildirmek (spoofing) veya sistemin sandık/ödül mekanizmalarını otomasyon/bot ile istismar etmek</li>
+      <li>Yasa dışı, müstehcen, telif hakkı ihlal eden veya küçükleri istismar eden içerik paylaşmak</li>
+      <li>Uygulamayı tersine mühendislik yapmak veya yetkisiz erişim girişiminde bulunmak</li>
+      <li>Diğer kullanıcıların rızası olmadan kişisel verilerini toplamak veya paylaşmak</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Konum Paylaşımı ve Kişisel Güvenlik</h2>
+    <p>Konum paylaşımı senin kontrolündedir ve Ayarlar'dan kapatılabilir. Ancak uygulamayı gerçek zamanlı konum paylaşarak kullanmayı seçtiğinde, bu bilgiyi kiminle paylaştığın konusunda dikkatli olman gerektiğini kabul edersin. Uygulama üzerinden tanıştığın kişilerle yüz yüze buluşurken herkese açık, kalabalık bir yer seçmeni ve tedbirli davranmanı öneririz. Kullanıcılar arasındaki etkileşimlerden ve fiziksel buluşmalardan doğabilecek sonuçlardan sorumlu değiliz.</p>
+  </section>
+
+  <section>
+    <h2>5. Topluluk Doğrulama</h2>
+    <p>Üniversite/topluluk rozeti, beyan ve (üniversite için) .edu.tr e-posta doğrulamasına dayanır. Yanlış beyanda bulunduğun tespit edilirse rozetin kaldırılabilir ve hesabın askıya alınabilir.</p>
+  </section>
+
+  <section>
+    <h2>6. FriendsCoin ve Satın Alımlar</h2>
+    <p>FriendsCoin, uygulama içi bir sanal puan birimidir; nakit karşılığı yoktur, nakde çevrilemez ve kullanıcılar arasında alınıp satılamaz. FriendsCoin, oyunlar, sandıklar, görevler veya uygulama mağazası üzerinden gerçek para karşılığı satın alma yoluyla kazanılabilir. Satın alınan FriendsCoin'ler, yürürlükteki tüketici mevzuatının zorunlu kıldığı haller dışında iade edilmez. Kupon ve ödüllerin stok/uygunluk durumu değişebilir.</p>
+  </section>
+
+  <section>
+    <h2>7. Kullanıcı İçeriği</h2>
+    <p>Paylaştığın fotoğraf, mesaj, biyografi ve diğer içeriklerin sahibi sensin. Bu içerikleri paylaşarak, uygulamanın işlevlerini yerine getirebilmesi için (ör. arkadaşlarına gösterme, depolama) bize gerekli, sınırlı bir kullanım izni vermiş olursun. Başkasının telif hakkını ihlal eden içerik paylaşmamalısın; böyle bir ihlal bildirimi alırsak içeriği kaldırabiliriz.</p>
+  </section>
+
+  <section>
+    <h2>8. Üçüncü Taraf Hizmetler</h2>
+    <p>Uygulama; harita (Google Maps), giriş (Google/Apple), ödeme, bildirim (Firebase) ve mekân/hava durumu (OpenStreetMap, Open-Meteo) için üçüncü taraf hizmetler kullanır. Bu hizmetlerin kendi kullanım koşulları ve gizlilik politikaları geçerlidir; bu hizmetlerin kesintisi veya hatasından doğabilecek zararlardan sorumlu değiliz.</p>
+  </section>
+
+  <section>
+    <h2>9. Hesabın Askıya Alınması veya Sonlandırılması</h2>
+    <p>Bu Koşulları ihlal ettiğini tespit edersek, hesabını uyarmadan askıya alabilir veya kalıcı olarak kapatabiliriz. Sen de dilediğin zaman Ayarlar &gt; Hesap Yönetimi üzerinden hesabını kalıcı olarak silebilirsin.</p>
+  </section>
+
+  <section>
+    <h2>10. Sorumluluğun Sınırlandırılması</h2>
+    <p>Uygulama "olduğu gibi" sunulmaktadır. Kesintisiz veya hatasız çalışacağını garanti etmeyiz. Yürürlükteki mevzuatın izin verdiği azami ölçüde; uygulamanın kullanımından doğabilecek dolaylı, arızi veya sonuç niteliğindeki zararlardan sorumlu tutulamayız.</p>
+  </section>
+
+  <section>
+    <h2>11. Değişiklikler</h2>
+    <p>Bu Koşulları zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içi bildirimle seni bilgilendiririz; güncellemeler sonrası uygulamayı kullanmaya devam etmen yeni Koşulları kabul ettiğin anlamına gelir.</p>
+  </section>
+
+  <section>
+    <h2>12. Uygulanacak Hukuk</h2>
+    <p>Bu Koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklarda Ankara Mahkemeleri ve İcra Daireleri yetkilidir.</p>
+  </section>
+
+  <section>
+    <h2>13. İletişim</h2>
+    <div class="contact-card">
+      <p style="color: var(--text); margin: 0;">📧 <a href="mailto:destek@friendsmap.tr">destek@friendsmap.tr</a></p>
+      <p style="color: var(--muted); font-size: 13px; margin-top: 8px; margin-bottom: 0;">FriendsMap Ekibi · Bandırma, Türkiye</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 FriendsMap Inc. Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
